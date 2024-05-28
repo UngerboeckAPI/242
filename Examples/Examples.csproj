@@ -294,6 +294,9 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Client">
       <Version>5.2.7</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Ungerboeck.Api.Sdk">
       <Version>1.242.0.3</Version>
     </PackageReference>
