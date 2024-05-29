@@ -294,12 +294,12 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Client">
       <Version>5.2.7</Version>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json">
-      <Version>13.0.3</Version>
-    </PackageReference>
-    <PackageReference Include="Ungerboeck.Api.Sdk">
-      <Version>1.242.0.3</Version>
-    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UngerboeckSDKWrapperJWT\UngerboeckSDKWrapperJWT.csproj">
+      <Project>{6c5e2fc8-e244-447d-ac97-fbb76bebe7ce}</Project>
+      <Name>UngerboeckSDKWrapperJWT</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
